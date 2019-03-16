@@ -1,2 +1,3 @@
-class Idea < ApplicationRecord
+class Idea < ApplicationRecord  
+mount_uploader :picture, PictureUploader
 end
